@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: service-example
+    description: production-example
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
